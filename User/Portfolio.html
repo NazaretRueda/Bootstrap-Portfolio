@@ -16,22 +16,20 @@
 
   <!-- Nav bar-->
   <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-xxl">
+    <div class="container-xl">
       <a href="#intro" class="navbar-brand">
-        <span class="fw-bold text-secondary">
-        Front End Dev - Portfolio
-        </span>
+        <span class="fw-bold text-secondary">Front End Dev - Portfolio</span>
       </a>
        <!-- toggle button for mobile nav-->     <!-- aria-controls, aria-expanded & aria-label for the benefit of screen readers-->
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
        data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navbar links-->
-      <div class="collapse navbar-collapse justify-content-end align-center"
-      id="nain-nav">
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <div class="navbar-secondary p-1"></div>
         <ul class="navbar-nav">
            <li class="nav-item">
             <a class="nav-link" href="#Welcome">Welcome</a>
@@ -51,11 +49,26 @@
     </div>
   </nav>
 
-  <!-- Display headings-->
- 
+  <!-- jumbotron-->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="co-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">Welcome to My Portfolio!</div>
+            <div class="display-5 text-muted">My Coding Skills</div>
+          </h1>
+          <p class="lead my-4 text-muted"></p>
+          <a href="#About"></a>
+        </div>
+        <div class="col-md-4 text-center d-none d-md-block">
+          <img class="img-fluid" src="./Images/Nazareth Rueda.jpg" alt="Profile picture">
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Display headings-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-</html>
