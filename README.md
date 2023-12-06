@@ -5,8 +5,10 @@ Professional portfolio compiled through Bootstrap.
 The portfolio contain differents sections with my skills and Projects and Call of Actions to contact and view my projects
 
 # Screenshot
-![Alt  screenshot1] https://github.com/NazaretRueda/Bootstrap-Portfolio/
-![Alt  screenshot2]
+
+![Alt  screenshot1] ![Alt text](<User/Images/Screenshot 2023-12-05 at 23.56.53.png>)
+
+![Alt  screenshot2]![Alt text](<User/Images/Screenshot 2023-12-05 at 23.57.09.png>)
 
 
 https://github.com/NazaretRueda/Bootstrap-Portfolio.git
